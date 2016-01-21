@@ -16,6 +16,7 @@
              <input type="number" name="mitecount"><br><br>
              <input type="submit" value="Enter Data">
         </form>
+        <a href="dependancies/admin.php">View All</a>
     </body>
     
 </html>
