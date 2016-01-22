@@ -16,7 +16,8 @@
              <input type="number" name="mitecount"><br><br>
              <input type="submit" value="Enter Data">
         </form>
-        <a href="dependancies/admin.php">View All</a>
+        <a href="dependancies/admin.php">View All</a> &nbsp;
+        <a href="dependancies/php/download.php">Download Excel File</a>
     </body>
     
 </html>

@@ -8,7 +8,7 @@ class SamplesModel{
     }
     
     public function getAllSamples(){
-        $stmt = $this->db->prepare("SELECT hive_id, num_mites, collection_date FROM samples");
+        $stmt = $this->db->prepare("SELECT hive_id, num_mites, collection_date, sample_period FROM samples");
          $stmt -> execute();
         return $stmt;
     }
