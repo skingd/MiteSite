@@ -2,7 +2,7 @@
 
 function readDatabase(){
 $servername = "localhost";
-$username = "tps_read";
+
 $password = "";
 $dbname = "tps_bee_database";
 
@@ -22,7 +22,7 @@ catch(PDOException $e)
 
 function writeDatabase(){
     $servername = "localhost";
-$username = "tps_write";
+$usernam
 $password = "";
 $dbname = "tps_bee_database";
 
