@@ -4,8 +4,7 @@
 function readDatabase(){
     
     $servername = "localhost";
-$username = "tps_read";
-$password = ";+TdG+Bd+E(t";
+
     
     try {
         $conn = new PDO("mysql:host=$servername;dbname=tps_bee_database", $username, $password);
