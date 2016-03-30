@@ -2,7 +2,7 @@
 
 function readDatabase(){
 $servername = "localhost";
-
+$username = "tps_read";
 $password = "";
 $dbname = "tps_bee_database";
 
@@ -17,14 +17,13 @@ catch(PDOException $e)
     {
     echo "Connection failed: " . $e->getMessage();
     }
-
 }
 
 function writeDatabase(){
-    $servername = "localhost";
-$usernam
-$password = "";
-$dbname = "tps_bee_database";
+$servername = "localhost";
+$username = "beehive_write";
+$password = "BTFp(R!69;40";
+$dbname = "beehive_mite_database";
 
 
 try {
@@ -37,7 +36,6 @@ catch(PDOException $e)
     {
     echo "Connection failed: " . $e->getMessage();
     }
-
 }
 
 ?>

@@ -37,7 +37,7 @@ if (PHP_SAPI == 'cli')
 /** Include PHPExcel */
 //require_once dirname(__FILE__) . '../Classes/PHPExcel.php';
 require "../Classes/PHPExcel.php";
-require "../dbcon.php";
+require "dbcon.php";
 require "../models/SamplesModel.php";
 
 // Create new PHPExcel object
@@ -54,7 +54,7 @@ $objPHPExcel->getProperties()->setCreator("GRC Tech")
 							 ->setKeywords("Bee Hive Honey Mites")
 							 ->setCategory("Bee Hive");
 
-$db = readDatabase();
+$db = writeDatabase();
 $samplesModel = new SamplesModel($db);
 $sampleList = $samplesModel->getAllSamples();
                         
